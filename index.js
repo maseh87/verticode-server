@@ -3,6 +3,6 @@ var app = express();
 
 
 
-
+console.log(process.env.PORT, 'port');
 app.listen(process.env.PORT);
-console.log('Listing on 3456');
+console.log('Listening on ', process.env.PORT);
